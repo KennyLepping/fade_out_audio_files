@@ -7,7 +7,7 @@ from moviepy.editor import AudioFileClip
 
 def fade_out_audio(dir_path):
     
-    # Process audio file with fades to prevent a click at the end
+    # Process audio files with fades to prevent a click at the end
     files = os.listdir(dir_path)
     dir_path = Path(dir_path)
     for file in files:
